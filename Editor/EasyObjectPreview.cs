@@ -5,10 +5,10 @@ public class EasyObjectPreview : EditorWindow
 {
     private static EasyObjectPreview window;
     private static Object selectedObject;
+    private static Vector2 _windowSize = new Vector2(500, 500);
 
     private Editor _previewEditor;
 
-    private static Vector2 _windowSize = new Vector2(500, 500);
     
     [MenuItem("Tools/Easy Object Preview %SPACE")]
     private static void Init()
